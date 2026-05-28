@@ -1,7 +1,9 @@
 from app.analytics import generate_analytics
 from app.processor import save_json
 from processor import read_file, process_text
-from batch_processor import process_all_files
+#commenting this import to include the ai processor
+#from batch_processor import process_all_files
+from ai_batch_processor import process_all_files
 #code to process single file
 text=read_file("../input/sample_data_1.txt")
 result=process_text(text)

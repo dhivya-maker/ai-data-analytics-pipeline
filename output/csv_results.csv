@@ -1,4 +1,4 @@
-Summary,category,issue_type
-Customer called about payment delay. The claim was approved but payment has not been received. Escal,Claim,General Issue
-Member reported eligibility issue. System shows inactive coverage. Support team needs to verify memb,Unknown,General Issue
-Customer reported delayed claim processing. Provider information missing. Escalated to claims team.,Claim,Missing Provider Information
+summary,category,issue_type,priority,sentiment
+Customer called regarding a delay in receiving an approved payment. The issue has been escalated to the billing team.,Billing,Payment Delay,Medium,Neutral
+Member reported eligibility issue due to system showing inactive coverage; support team needs to verify enrollment status.,Eligibility,Coverage Status,Medium,Neutral
+Customer reported delayed claim processing due to missing provider information; issue has been escalated to the claims team.,Claims,Delayed Processing,High,Negative

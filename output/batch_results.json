@@ -1,17 +1,23 @@
 [
     {
-        "Summary": "Customer called about payment delay. The claim was approved but payment has not been received. Escal",
-        "category": "Claim",
-        "issue_type": "General Issue"
+        "summary": "Customer called regarding a delay in receiving an approved payment. The issue has been escalated to the billing team.",
+        "category": "Billing",
+        "issue_type": "Payment Delay",
+        "priority": "Medium",
+        "sentiment": "Neutral"
     },
     {
-        "Summary": "Member reported eligibility issue. System shows inactive coverage. Support team needs to verify memb",
-        "category": "Unknown",
-        "issue_type": "General Issue"
+        "summary": "Member reported eligibility issue due to system showing inactive coverage; support team needs to verify enrollment status.",
+        "category": "Eligibility",
+        "issue_type": "Coverage Status",
+        "priority": "Medium",
+        "sentiment": "Neutral"
     },
     {
-        "Summary": "Customer reported delayed claim processing. Provider information missing. Escalated to claims team.",
-        "category": "Claim",
-        "issue_type": "Missing Provider Information"
+        "summary": "Customer reported delayed claim processing due to missing provider information; issue has been escalated to the claims team.",
+        "category": "Claims",
+        "issue_type": "Delayed Processing",
+        "priority": "High",
+        "sentiment": "Negative"
     }
 ]
