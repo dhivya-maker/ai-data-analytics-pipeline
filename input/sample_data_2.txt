@@ -1,0 +1,1 @@
+Customer called about payment delay. The claim was approved but payment has not been received. Escalated to billing team.

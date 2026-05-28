@@ -18,6 +18,7 @@ def process_text(text):
         "issue_type": issue_type
   }
     return processed_data
+
 def save_json(file_path, data):
     with open(file_path, 'w') as f:
         json.dump(data, f, indent=4)
