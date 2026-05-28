@@ -1,0 +1,5 @@
+{
+    "Summary": "Customer reported delayed claim processing. Provider information missing. Escalated to claims team.",
+    "category": "Claim",
+    "issue_type": "Missing Provider Information"
+}
