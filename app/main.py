@@ -1,3 +1,4 @@
+from app.analytics import generate_analytics
 from app.processor import save_json
 from processor import read_file, process_text
 from batch_processor import process_all_files
@@ -12,5 +13,5 @@ output_folder = "../output"
 results = process_all_files(input_folder, output_folder)
 print("Batch processing complete")
 print(f"Total files processed: {len(results)}")
-for result in results:
-    print(result)
+csv_path = f"{output_folder}/csv_results.csv"
+generate_analytics(csv_path)
