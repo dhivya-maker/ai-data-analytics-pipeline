@@ -1,6 +1,7 @@
 import json
 from openai import OpenAI
 client  = OpenAI()
+# TODO: Replace with structured JSON schema output in Version 3
 def process_text_with_ai(text):
     prompt = f"""
         Analyze the following customer support text.
