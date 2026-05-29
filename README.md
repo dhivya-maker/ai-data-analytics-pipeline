@@ -159,3 +159,40 @@ http://localhost:8501
 
 ```
 ```
+## Running the Streamlit Dashboard
+
+Start the dashboard:
+
+```bash
+streamlit run app/dashboard.py
+```
+
+The application will open in your browser:
+
+```text
+http://localhost:8501
+```
+
+### How to Use
+
+1. Upload one or more text files using the file uploader.
+2. Click **Analyze Files**.
+3. The application will:
+
+   * Process the files using OpenAI
+   * Extract structured insights
+   * Generate analytics
+   * Display KPIs and charts
+   * Generate an executive summary
+
+### Dashboard Features
+
+* Multi-file upload
+* AI-powered text analysis
+* Category classification
+* Issue type classification
+* Sentiment analysis
+* KPI metrics
+* Category distribution charts
+* Issue distribution charts
+* Executive summary generation
