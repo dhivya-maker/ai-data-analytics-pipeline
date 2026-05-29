@@ -11,7 +11,7 @@ def process_all_files(input_dir, output_dir):
             result = process_text(text)
             results.append(result)
     json_output_file_path = os.path.join(output_dir, "batch_results.json")
-    csv_output_file_path = os.path.join(output_dir, "csv_results.csv")
+    csv_output_file_path = os.path.join(output_dir, "batch_results.csv")
     save_json(results, json_output_file_path)
     save_csv(results, csv_output_file_path)
     return results
